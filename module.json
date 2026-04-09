@@ -1,0 +1,32 @@
+{
+  "id": "token-action-hud-argyropee",
+  "title": "Token Action HUD - Argyropée",
+  "description": "Barre d'actions rapide (HUD) officielle pour le système Argyropée.",
+  "authors": [
+    {
+      "name": "Ton Pseudo"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "13"
+  },
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "argyropee",
+        "type": "system"
+      }
+    ],
+    "requires": [
+      {
+        "id": "token-action-hud-core",
+        "type": "module"
+      }
+    ]
+  }
+}
